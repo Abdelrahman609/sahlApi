@@ -11,4 +11,10 @@ $app = new \Slim\App;
 //
 //     return $response;
 // });
+
+
+require '../src/config/db_config.php';
+
+require '../src/routes/category/display-cats.php';
+
 $app->run();
